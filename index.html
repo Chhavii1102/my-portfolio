@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="brand">
+                <p id="chh"><span>CHHAVI SHARMA</span></p>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skill">Skills</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero-inner">
+            <h1 class="hero-title">Hi, I'm Chhavi</h1>
+            <p class="hero-subtitle">A Computer Science and Engineering (CSE) Student</p>
+        </div>
+        <div class="hero-img"></div>
+    </div>
+    <div class="about" id="about">
+        <div class="intro">
+            <h2>About Me</h2>
+            <p>
+                Hii! My name is <strong>Chhavi Sharma</strong>.I am a Computer Science and Engineering student,currently in my 3rd year of Polytechnic at <b>GGPM</b>.
+                Now I am learning programming,databases,and web development to build my carrer in technology.
+            </p>
+            <p>
+                I like to explore how websites,softwares and apps work.My aim is to become a good software developer and create useful and easy-to-use applications.
+            </p>
+        </div>
+        <div class="edu">
+            <h3>My Education</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Institute</th>
+                    <th>Year</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Polytechnic (CSE) - 3rd Year</td>
+                    <td>Government Girls Polytechnic Moradabad</td>
+                    <td>2023-pursuing</td>
+                </tr>
+                <tr>
+                    <td>12th Class (PCM)</td>
+                    <td>Methodist Girls Inter College,Moradabad</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>10th Class</td>
+                    <td>Methodist Girls Inter College,Moradabad</td>
+                    <td>2021</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="skill" id="skill">
+        <h2>Skills</h2>
+        <div class="tech-skill">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML | CSS | Javascript</li>
+                <li>Python programming and GUI(Tkinter)</li>
+                <li>MySQL Database</li>
+                <li>C programming(basic)</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+        <div class="soft-skill">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Time Management</li>
+                <li>Fast learner</li>
+            </ul>
+        </div>
+    </div>
+    <div class="project" id="project">
+        <h2>My Projects</h2>
+        <div class="proj">
+            <dl>
+                <dt><h4>Simple Calculator</h4></dt>
+                <dd>A basic calculator that performs simple arithmetic operations like addition, subtraction, multiplication, and division with an easy-to-use interface.
+                <br>
+                <a href="proj/calculator.html" target="_blank" class="btn">View Project</a>
+                </dd>
+                <dt><h4>To-Do List</h4></dt>
+                <dd>A simple to-do list app to add, mark, and delete tasks for better daily task management
+                <br>
+                <a href="proj/to-do_list.html" target="_blank" class="btn">View Project</a>
+                </dd>
+                <dt><h4>Amazon Clone</h4></dt>
+                <dd>A static Amazon clone built using HTML and CSS with product cards and responsive layout.
+                <br>
+                <a href="proj/clone.html" target="_blank" class="btn">View Project</a>
+                </dd>
+                <dt><h4>Digital Clock</h4></dt>
+                <dd>A Digital Clock that shows current date and time.
+                <br>
+                <a href="proj/digital_clk.html" target="_blank" class="btn">View Project</a>
+                </dd>
+                <dt><h4>Notepad</h4></dt>
+                <dd>A simple notepad application to create, edit, save, and manage text files with a simple and user-friendly interface.
+                <br>
+                <a href="proj/notepad.html" target="_blank" class="btn">View Project</a>
+                </dd>
+                <dt><h4>College Management System</h4></dt>
+                <dd>A simple system to manage students, teachers, courses, and basic college records easily and efficiently.
+                <br>
+                <a href="proj/cms.html" target="_blank" class="btn">View Project</a>
+                </dd>
+            </dl>
+        </div> 
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xandvvvz" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="Name" required placeholder="Enter your name"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="Email" required placeholder="Enter your email"><br><br>
+                    <label for="msg">Message:</label><br>
+                    <textarea id="msg" name="Message" required placeholder="Message" rows="5" cols="30"></textarea><br><br>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Connect With Me</h3>
+                <p>Email : <a href="mailto:chhavisharma2k6@gmail.com" target="_blank">chhavisharma2k6@gmail.com</a></p>
+                <p>LinkedIn : <a href="https://www.linkedin.com/in/chhavi-sharma-578b0437b/" target="_blank">linkedin.com/in/chhavi-sharma-578b0437b</a></p>
+                <p>GitHub : <a href="https://github.com/Chhavii1102" target="_blank">github.com/Chhavii1102</a></p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            © 2025 Chhavi Sharma | Built with ❤️ using HTML & CSS
+        </div>
+    </footer>
+</body>
+</html>

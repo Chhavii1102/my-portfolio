@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+h1{
+    font-weight: 700;
+    text-align: center;
+    font-size:3rem;
+    margin-top: 10px;
+}
+.hero{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.proj-img{
+    height: 420px;
+    width: 420px;
+    border: 10px solid #e2e7e6;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.description{
+    margin-top: 80px;
+    height: 400px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.description h2{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.description p{
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 1.4rem;
+}
+.feature li{
+    line-height: 1.4rem;
+}
+.feature{
+    margin-bottom: 20px;
+}
+.technology ul{
+    margin-top: 10px;
+    line-height: 1.4rem;
+}
+.btn{
+    height: 100px;
+    margin-top: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    text-decoration: none;
+    font-size: 1.2 rem;
+}
+.btn1{
+    background-color: rgb(8, 8, 227);
+    color: white;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.btn2{
+    background-color:red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+    margin-left: 50px;
+}
+.btn1:hover{
+    background-color: blue;
+}
+.btn2:hover{
+    background-color:rgb(225, 6, 6);
+}
